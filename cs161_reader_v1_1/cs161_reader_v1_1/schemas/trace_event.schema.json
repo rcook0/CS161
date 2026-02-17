@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TraceEvent",
+  "type": "object",
+  "required": [
+    "t",
+    "run_id",
+    "hook_id",
+    "theorem_id",
+    "event",
+    "data"
+  ],
+  "properties": {
+    "t": {
+      "type": "string",
+      "description": "ISO timestamp"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "hook_id": {
+      "type": "string"
+    },
+    "theorem_id": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object"
+    },
+    "seed": {
+      "type": [
+        "integer",
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,11 @@
+run_hooks.py failed
+
+STDERR:
+Traceback (most recent call last):
+  File "/mnt/data/cs161_reader_v1_1/scripts/run_hooks.py", line 7, in <module>
+    from hooks.event_sink import EventSink, new_run_id
+ModuleNotFoundError: No module named 'hooks'
+
+
+STDOUT:
+

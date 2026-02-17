@@ -1,0 +1,15 @@
+from: markdown
+to: pdf
+pdf-engine: pdflatex
+standalone: true
+number-sections: true
+toc: true
+metadata:
+  author: "CS161 Reader (Plotkin F10)"
+variables:
+  geometry: "margin=1in"
+  fontsize: "11pt"
+  colorlinks: true
+  urlcolor: blue
+  linkcolor: blue
+  toccolor: black

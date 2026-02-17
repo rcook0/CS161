@@ -1,0 +1,18 @@
+release.sh failed
+
+STDERR:
+Error producing PDF.
+! LaTeX Error: Unicode character ⇒ (U+21D2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 ... Edge ⇒ Cycle) {[}P2{]}}\label{lem-5-2}}
+
+
+
+STDOUT:
+Wrote: /mnt/data/cs161_reader_v1_0/dist/_build/pdf/ch04_randomized_algorithms.pdf
+
