@@ -1,0 +1,29 @@
+version: '1.4'
+title: CS161 Reader (Plotkin F10)
+author: CS161 Reader
+pdf_engine: pdflatex
+chapters:
+- id: ch04
+  file: ch04_randomized_algorithms.md
+  title: Randomized Algorithms
+- id: ch05
+  file: ch05_graph_search.md
+  title: Graph Search and Topological Order
+- id: ch06
+  file: ch06_shortest_paths.md
+  title: Shortest Paths
+- id: ch07
+  file: ch07_mst.md
+  title: Minimum Spanning Trees
+- id: ch08
+  file: ch08_greedy.md
+  title: Greedy Algorithms
+- id: ch09
+  file: ch09_dynamic_programming.md
+  title: Dynamic Programming Core
+- id: ch10
+  file: ch10_amortized_ds.md
+  title: Amortized Analysis + Data Structures
+- id: ch11
+  file: ch11_np_reductions.md
+  title: NP & Reductions

@@ -1,0 +1,150 @@
+{
+  "anchors": {
+    "def-cut-property": {
+      "chapter_id": "ch07",
+      "patterns": [
+        "P4"
+      ],
+      "title": "Definition (Cut Property)"
+    },
+    "inv-5-1": {
+      "chapter_id": "ch05",
+      "patterns": [
+        "P2"
+      ],
+      "title": "Invariant 5.1 (DFS Stack Invariant)"
+    },
+    "inv-6-1": {
+      "chapter_id": "ch06",
+      "patterns": [
+        "P5"
+      ],
+      "title": "Invariant 6.1 (Upper Bound)"
+    },
+    "lem-5-2": {
+      "chapter_id": "ch05",
+      "patterns": [
+        "P2"
+      ],
+      "title": "Lemma 5.2 (Back Edge \u21d2 Cycle)"
+    },
+    "lem-8-2": {
+      "chapter_id": "ch08",
+      "patterns": [
+        "P3",
+        "P2"
+      ],
+      "title": "Lemma 8.2 (Huffman Merge Lemma)"
+    },
+    "thm-10-1": {
+      "chapter_id": "ch10",
+      "patterns": [
+        "P9"
+      ],
+      "title": "Theorem 10.1 (Dynamic Array Doubling is O(1) Amortized)"
+    },
+    "thm-10-2": {
+      "chapter_id": "ch10",
+      "patterns": [
+        "P9"
+      ],
+      "title": "Theorem 10.2 (Potential Method for Doubling)"
+    },
+    "thm-4-3": {
+      "chapter_id": "ch04",
+      "patterns": [
+        "P6"
+      ],
+      "title": "Theorem 4.3 (Expected QuickSort Comparisons)"
+    },
+    "thm-4-4": {
+      "chapter_id": "ch04",
+      "patterns": [
+        "P6",
+        "P1"
+      ],
+      "title": "Theorem 4.4 (Expected Linear QuickSelect)"
+    },
+    "thm-4-6": {
+      "chapter_id": "ch04",
+      "patterns": [
+        "P6",
+        "P7"
+      ],
+      "title": "Theorem 4.6 (Karger Success Probability)"
+    },
+    "thm-5-3": {
+      "chapter_id": "ch05",
+      "patterns": [
+        "P2"
+      ],
+      "title": "Theorem 5.3 (Topo Order via Finishing Times)"
+    },
+    "thm-6-3": {
+      "chapter_id": "ch06",
+      "patterns": [
+        "P5",
+        "P2"
+      ],
+      "title": "Theorem 6.3 (Dijkstra Finalization)"
+    },
+    "thm-6-6": {
+      "chapter_id": "ch06",
+      "patterns": [
+        "P5",
+        "P1"
+      ],
+      "title": "Theorem 6.6 (Bellman\u2013Ford Correctness)"
+    },
+    "thm-7-1": {
+      "chapter_id": "ch07",
+      "patterns": [
+        "P4",
+        "P2"
+      ],
+      "title": "Theorem 7.1 (Prim Correctness)"
+    },
+    "thm-7-2": {
+      "chapter_id": "ch07",
+      "patterns": [
+        "P4"
+      ],
+      "title": "Theorem 7.2 (Kruskal Correctness)"
+    },
+    "thm-8-1": {
+      "chapter_id": "ch08",
+      "patterns": [
+        "P3"
+      ],
+      "title": "Theorem 8.1 (Interval Scheduling Optimality)"
+    },
+    "thm-8-3": {
+      "chapter_id": "ch08",
+      "patterns": [
+        "P3"
+      ],
+      "title": "Theorem 8.3 (Huffman Correctness)"
+    },
+    "tpl-11-1": {
+      "chapter_id": "ch11",
+      "patterns": [
+        "P10"
+      ],
+      "title": "Template 11.1 (Reduction Proof Template)"
+    },
+    "tpl-9-1": {
+      "chapter_id": "ch09",
+      "patterns": [
+        "P8"
+      ],
+      "title": "Template 9.1 (DP Proof Template)"
+    }
+  },
+  "generated_at": "now",
+  "hook_map": {
+    "thm-10-1": "hook-thm-10-1-dynarray-credits",
+    "thm-4-3": "hook-thm-4-3-quicksort-indicators",
+    "thm-4-6": "hook-thm-4-6-karger-amplify",
+    "thm-6-3": "hook-thm-6-3-dijkstra-finalize"
+  }
+}

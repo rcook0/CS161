@@ -1,0 +1,24 @@
+{
+  "error": null,
+  "event_counts": {
+    "hook_end": 1,
+    "hook_start": 1,
+    "partition": 1326,
+    "pivot": 1326,
+    "trial_end": 10,
+    "trial_start": 10
+  },
+  "events_sha256": "6c72030556f1ec776ba18915251bc1de310e2ee2e2251ed65467f1b830765370",
+  "events_total": 2674,
+  "generated_at": "2026-02-17T07:36:09.278158+00:00",
+  "hook_id": "hook-thm-4-3-quicksort-indicators",
+  "params": {
+    "n": 200,
+    "seed": 123,
+    "trials": 10
+  },
+  "run_id": "72df57180850456a9ca80688ab753ecc",
+  "status": "OK",
+  "target": "cs161lab_stub.rand_quicksort:run_hook",
+  "theorem_id": "thm-4-3"
+}

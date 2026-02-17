@@ -1,0 +1,181 @@
+{
+  "entries": [
+    {
+      "id": "thm-4-3",
+      "title": "Theorem 4.3 (Expected QuickSort Comparisons)",
+      "chapter": "ch04",
+      "href": "ch04.html#thm-4-3",
+      "patterns": [
+        "P6"
+      ]
+    },
+    {
+      "id": "thm-4-4",
+      "title": "Theorem 4.4 (Expected Linear QuickSelect)",
+      "chapter": "ch04",
+      "href": "ch04.html#thm-4-4",
+      "patterns": [
+        "P6",
+        "P1"
+      ]
+    },
+    {
+      "id": "thm-4-6",
+      "title": "Theorem 4.6 (Karger Success Probability)",
+      "chapter": "ch04",
+      "href": "ch04.html#thm-4-6",
+      "patterns": [
+        "P6",
+        "P7"
+      ]
+    },
+    {
+      "id": "inv-5-1",
+      "title": "Invariant 5.1 (DFS Stack Invariant)",
+      "chapter": "ch05",
+      "href": "ch05.html#inv-5-1",
+      "patterns": [
+        "P2"
+      ]
+    },
+    {
+      "id": "lem-5-2",
+      "title": "Lemma 5.2 (Back Edge \u21d2 Cycle)",
+      "chapter": "ch05",
+      "href": "ch05.html#lem-5-2",
+      "patterns": [
+        "P2"
+      ]
+    },
+    {
+      "id": "thm-5-3",
+      "title": "Theorem 5.3 (Topo Order via Finishing Times)",
+      "chapter": "ch05",
+      "href": "ch05.html#thm-5-3",
+      "patterns": [
+        "P2"
+      ]
+    },
+    {
+      "id": "inv-6-1",
+      "title": "Invariant 6.1 (Upper Bound)",
+      "chapter": "ch06",
+      "href": "ch06.html#inv-6-1",
+      "patterns": [
+        "P5"
+      ]
+    },
+    {
+      "id": "thm-6-3",
+      "title": "Theorem 6.3 (Dijkstra Finalization)",
+      "chapter": "ch06",
+      "href": "ch06.html#thm-6-3",
+      "patterns": [
+        "P5",
+        "P2"
+      ]
+    },
+    {
+      "id": "thm-6-6",
+      "title": "Theorem 6.6 (Bellman\u2013Ford Correctness)",
+      "chapter": "ch06",
+      "href": "ch06.html#thm-6-6",
+      "patterns": [
+        "P5",
+        "P1"
+      ]
+    },
+    {
+      "id": "def-cut-property",
+      "title": "Definition (Cut Property)",
+      "chapter": "ch07",
+      "href": "ch07.html#def-cut-property",
+      "patterns": [
+        "P4"
+      ]
+    },
+    {
+      "id": "thm-7-1",
+      "title": "Theorem 7.1 (Prim Correctness)",
+      "chapter": "ch07",
+      "href": "ch07.html#thm-7-1",
+      "patterns": [
+        "P4",
+        "P2"
+      ]
+    },
+    {
+      "id": "thm-7-2",
+      "title": "Theorem 7.2 (Kruskal Correctness)",
+      "chapter": "ch07",
+      "href": "ch07.html#thm-7-2",
+      "patterns": [
+        "P4"
+      ]
+    },
+    {
+      "id": "thm-8-1",
+      "title": "Theorem 8.1 (Interval Scheduling Optimality)",
+      "chapter": "ch08",
+      "href": "ch08.html#thm-8-1",
+      "patterns": [
+        "P3"
+      ]
+    },
+    {
+      "id": "lem-8-2",
+      "title": "Lemma 8.2 (Huffman Merge Lemma)",
+      "chapter": "ch08",
+      "href": "ch08.html#lem-8-2",
+      "patterns": [
+        "P3",
+        "P2"
+      ]
+    },
+    {
+      "id": "thm-8-3",
+      "title": "Theorem 8.3 (Huffman Correctness)",
+      "chapter": "ch08",
+      "href": "ch08.html#thm-8-3",
+      "patterns": [
+        "P3"
+      ]
+    },
+    {
+      "id": "tpl-9-1",
+      "title": "Template 9.1 (DP Proof Template)",
+      "chapter": "ch09",
+      "href": "ch09.html#tpl-9-1",
+      "patterns": [
+        "P8"
+      ]
+    },
+    {
+      "id": "thm-10-1",
+      "title": "Theorem 10.1 (Dynamic Array Doubling is O(1) Amortized)",
+      "chapter": "ch10",
+      "href": "ch10.html#thm-10-1",
+      "patterns": [
+        "P9"
+      ]
+    },
+    {
+      "id": "thm-10-2",
+      "title": "Theorem 10.2 (Potential Method for Doubling)",
+      "chapter": "ch10",
+      "href": "ch10.html#thm-10-2",
+      "patterns": [
+        "P9"
+      ]
+    },
+    {
+      "id": "tpl-11-1",
+      "title": "Template 11.1 (Reduction Proof Template)",
+      "chapter": "ch11",
+      "href": "ch11.html#tpl-11-1",
+      "patterns": [
+        "P10"
+      ]
+    }
+  ]
+}

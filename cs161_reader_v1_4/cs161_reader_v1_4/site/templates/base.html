@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="card">
+      <div style="font-weight:700">CS161 Reader</div>
+      <div class="muted" style="margin-top:4px">v1.4 — maps restored</div>
+    </div>
+    <input id="q" class="search" placeholder="Filter this page…" />
+    <div class="nav">
+      <h3>Top</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="patterns.html">Proof patterns</a></li>
+        <li><a href="theorems.html">Theorem index</a></li>
+        <li><a href="maps.html">Maps</a></li>
+        <li><a href="hooks.html">Hooks</a></li>
+        <li><a href="goldens.html">Goldens</a></li>
+      </ul>
+      <h3>Chapters</h3>
+      <ul>
+        {{chapter_links}}
+      </ul>
+    </div>
+    <div class="card muted" style="font-size:12px; margin-top:14px">
+      v1.3 adds golden evidence verification via scripts/.
+    </div>
+  </aside>
+  <main class="main">
+    {{content}}
+  </main>
+</div>
+<script>
+(function(){
+  const q = document.getElementById('q');
+  if(!q) return;
+  q.addEventListener('input', () => {
+    const term = q.value.toLowerCase().trim();
+    document.querySelectorAll('[data-search]').forEach(el => {
+      const hay = (el.getAttribute('data-search')||'').toLowerCase();
+      el.style.display = (!term || hay.includes(term)) ? '' : 'none';
+    });
+  });
+})();
+</script>
+</body>
+</html>

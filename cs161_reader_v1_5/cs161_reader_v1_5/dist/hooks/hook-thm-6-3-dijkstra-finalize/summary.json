@@ -1,0 +1,22 @@
+{
+  "error": null,
+  "event_counts": {
+    "finalize": 34,
+    "hook_end": 1,
+    "hook_start": 1,
+    "relax": 39
+  },
+  "events_sha256": "6f5920d9ac9a2378bea8325280800194ea990f81e71691eff8267097a7f4b65c",
+  "events_total": 75,
+  "generated_at": "2026-02-17T07:36:09.546874+00:00",
+  "hook_id": "hook-thm-6-3-dijkstra-finalize",
+  "params": {
+    "m": 110,
+    "n": 35,
+    "seed": 789
+  },
+  "run_id": "8aef890791284b9489e0909ffb785d40",
+  "status": "OK",
+  "target": "cs161lab_stub.dijkstra:run_hook",
+  "theorem_id": "thm-6-3"
+}

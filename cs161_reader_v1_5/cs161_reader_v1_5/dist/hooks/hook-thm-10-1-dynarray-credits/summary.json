@@ -1,0 +1,22 @@
+{
+  "error": null,
+  "event_counts": {
+    "append": 2000,
+    "done": 1,
+    "hook_end": 1,
+    "hook_start": 1,
+    "resize": 11
+  },
+  "events_sha256": "b4074de81dd3eca85def737e612bde75d0ad91c6e20b73ca05a6d5b8a6f0d9cc",
+  "events_total": 2014,
+  "generated_at": "2026-02-17T07:36:09.768576+00:00",
+  "hook_id": "hook-thm-10-1-dynarray-credits",
+  "params": {
+    "appends": 2000,
+    "seed": 42
+  },
+  "run_id": "68fb96a83f934bd69ddc2d858197234e",
+  "status": "OK",
+  "target": "cs161lab_stub.dynamic_array:run_hook",
+  "theorem_id": "thm-10-1"
+}

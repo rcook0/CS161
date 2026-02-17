@@ -1,0 +1,24 @@
+{
+  "error": null,
+  "event_counts": {
+    "best": 1,
+    "contract": 690,
+    "hook_end": 1,
+    "hook_start": 1,
+    "self_loop": 734,
+    "trial": 30
+  },
+  "events_sha256": "e7e5f93ab26cfc129022e73c8dee84d78ddadf661b765613e4d134e5624fbed5",
+  "events_total": 1457,
+  "generated_at": "2026-02-17T07:36:09.539361+00:00",
+  "hook_id": "hook-thm-4-6-karger-amplify",
+  "params": {
+    "n": 25,
+    "seed": 456,
+    "trials": 30
+  },
+  "run_id": "ba45d3aca9774fe396de4dd8bc2f0098",
+  "status": "OK",
+  "target": "cs161lab_stub.karger_mincut:run_hook",
+  "theorem_id": "thm-4-6"
+}

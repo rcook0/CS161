@@ -1,0 +1,19 @@
+golden_capture failed
+
+STDERR:
+Traceback (most recent call last):
+  File "/mnt/data/cs161_reader_v1_3/scripts/run_hooks.py", line 6, in <module>
+    from hooks.event_sink import EventSink, new_run_id
+ModuleNotFoundError: No module named 'hooks'
+Traceback (most recent call last):
+  File "/mnt/data/cs161_reader_v1_3/scripts/golden_capture.py", line 61, in <module>
+    main()
+  File "/mnt/data/cs161_reader_v1_3/scripts/golden_capture.py", line 34, in main
+    subprocess.check_call(["python3", "scripts/run_hooks.py", "--registry", args.registry, "--out", str(tmp)])
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['python3', 'scripts/run_hooks.py', '--registry', 'hook_registry.yaml', '--out', 'golden/_tmp_run']' returned non-zero exit status 1.
+
+
+STDOUT:
+
