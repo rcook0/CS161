@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS161 Reader</title>
+  <link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="card">
+      <div style="font-weight:700">CS161 Reader</div>
+      <div class="muted" style="margin-top:4px">v1.2 — navigable build</div>
+    </div>
+    <input id="q" class="search" placeholder="Search (theorems/patterns) — try: dijkstra, P5" />
+    <div class="nav">
+      <h3>Top</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="patterns.html">Proof patterns</a></li>
+        <li><a href="theorems.html">Theorem index</a></li>
+        <li><a href="hooks.html">Hooks index</a></li>
+      </ul>
+      <h3>Chapters</h3>
+      <ul>
+        <li><a href="ch04.html">CH04 — Randomized Algorithms</a></li>
+<li><a href="ch05.html">CH05 — Graph Search and Topological Order</a></li>
+<li><a href="ch06.html">CH06 — Shortest Paths</a></li>
+<li><a href="ch07.html">CH07 — Minimum Spanning Trees</a></li>
+<li><a href="ch08.html">CH08 — Greedy Algorithms</a></li>
+<li><a href="ch09.html">CH09 — Dynamic Programming Core</a></li>
+<li><a href="ch10.html">CH10 — Amortized Analysis + Data Structures</a></li>
+<li><a href="ch11.html">CH11 — NP & Reductions</a></li>
+      </ul>
+    </div>
+    <div class="card muted" style="font-size:12px; margin-top:14px">
+      Tip: the search box filters entries on the current page; full-text search is intentionally out-of-scope for v1.2.
+    </div>
+  </aside>
+  <main class="main">
+    <h1>CS161 Reader</h1><p class='muted'>v1.2 navigable build. Use the sidebar to browse chapters, proof patterns, and theorem index.</p>
+<div class="card" data-search="Randomized Algorithms ch04">
+  <div style="font-weight:700"><a href="ch04.html">CH04 — Randomized Algorithms</a></div>
+  <div class="muted">ch04_randomized_algorithms.md</div>
+</div>
+
+<div class="card" data-search="Graph Search and Topological Order ch05">
+  <div style="font-weight:700"><a href="ch05.html">CH05 — Graph Search and Topological Order</a></div>
+  <div class="muted">ch05_graph_search.md</div>
+</div>
+
+<div class="card" data-search="Shortest Paths ch06">
+  <div style="font-weight:700"><a href="ch06.html">CH06 — Shortest Paths</a></div>
+  <div class="muted">ch06_shortest_paths.md</div>
+</div>
+
+<div class="card" data-search="Minimum Spanning Trees ch07">
+  <div style="font-weight:700"><a href="ch07.html">CH07 — Minimum Spanning Trees</a></div>
+  <div class="muted">ch07_mst.md</div>
+</div>
+
+<div class="card" data-search="Greedy Algorithms ch08">
+  <div style="font-weight:700"><a href="ch08.html">CH08 — Greedy Algorithms</a></div>
+  <div class="muted">ch08_greedy.md</div>
+</div>
+
+<div class="card" data-search="Dynamic Programming Core ch09">
+  <div style="font-weight:700"><a href="ch09.html">CH09 — Dynamic Programming Core</a></div>
+  <div class="muted">ch09_dynamic_programming.md</div>
+</div>
+
+<div class="card" data-search="Amortized Analysis + Data Structures ch10">
+  <div style="font-weight:700"><a href="ch10.html">CH10 — Amortized Analysis + Data Structures</a></div>
+  <div class="muted">ch10_amortized_ds.md</div>
+</div>
+
+<div class="card" data-search="NP & Reductions ch11">
+  <div style="font-weight:700"><a href="ch11.html">CH11 — NP & Reductions</a></div>
+  <div class="muted">ch11_np_reductions.md</div>
+</div>
+  </main>
+</div>
+<script>
+(function(){
+  const q = document.getElementById('q');
+  if(!q) return;
+  q.addEventListener('input', () => {
+    const term = q.value.toLowerCase().trim();
+    document.querySelectorAll('[data-search]').forEach(el => {
+      const hay = (el.getAttribute('data-search')||'').toLowerCase();
+      el.style.display = (!term || hay.includes(term)) ? '' : 'none';
+    });
+  });
+})();
+</script>
+</body>
+</html>

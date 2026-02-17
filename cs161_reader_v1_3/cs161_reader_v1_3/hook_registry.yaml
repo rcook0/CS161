@@ -1,0 +1,20 @@
+hooks:
+  - hook_id: hook-thm-4-3-quicksort-indicators
+    theorem_id: thm-4-3
+    target: cs161lab_stub.rand_quicksort:run_hook
+    params: { n: 200, trials: 10, seed: 123 }
+
+  - hook_id: hook-thm-4-6-karger-amplify
+    theorem_id: thm-4-6
+    target: cs161lab_stub.karger_mincut:run_hook
+    params: { n: 25, trials: 30, seed: 456 }
+
+  - hook_id: hook-thm-6-3-dijkstra-finalize
+    theorem_id: thm-6-3
+    target: cs161lab_stub.dijkstra:run_hook
+    params: { n: 35, m: 110, seed: 789 }
+
+  - hook_id: hook-thm-10-1-dynarray-credits
+    theorem_id: thm-10-1
+    target: cs161lab_stub.dynamic_array:run_hook
+    params: { appends: 2000, seed: 42 }
